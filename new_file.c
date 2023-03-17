@@ -6,10 +6,11 @@
 /*   By: romannbroque <rbroque@student.42.fr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/17 15:40:25 by romannbroque      #+#    #+#             */
-/*   Updated: 2023/03/17 15:40:40 by romannbroque     ###   ########.fr       */
+/*   Updated: 2023/03/17 16:20:45 by romannbroque     ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 void	do_stuff(void)
 {
+	(void);
 }
