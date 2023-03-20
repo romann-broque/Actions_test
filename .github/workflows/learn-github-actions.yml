@@ -1,21 +1,16 @@
 name: learn-github-actions
-run-name: ${{ github.actor }} is learning Github Actions
-on: [push]
-jobs:
-  check-bats-version:
-    runs-on:  ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-	    - name: Norm
-         run:  ./norm.sh
 on:
+  push:
   pull_request:
     branches:
       - "main"
 jobs:
-  build:
+  check-bats-version:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      - name: Norm
+        run: ./norm.sh
       - name: Test
-         run: ./tests
+        if: github.event_name == 'pull_request' # only run for merges
+        run: ./tests
