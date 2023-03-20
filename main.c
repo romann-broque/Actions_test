@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: romannbroque <rbroque@student.42.fr>       +#+  +:+       +#+        */
+/*   By: rbroque <rbroque@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/03/20 11:37:41 by romannbroque      #+#    #+#             */
-/*   Updated: 2023/03/20 11:40:24 by romannbroque     ###   ########.fr       */
+/*   Created: 2023/03/20 11:37:41 by romannbroqu       #+#    #+#             */
+/*   Updated: 2023/03/20 16:34:27 by rbroque          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 
 int	main(void)
 {
-	size_t i;
+	size_t	i;
 
 	i = 0;
 	printf("%d", i);
