@@ -6,7 +6,7 @@
 /*   By: rbroque <rbroque@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/20 11:37:41 by romannbroqu       #+#    #+#             */
-/*   Updated: 2023/03/20 16:34:27 by rbroque          ###   ########.fr       */
+/*   Updated: 2023/03/20 16:45:09 by rbroque          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ int	main(void)
 	size_t	i;
 
 	i = 0;
-	printf("%d", i);
+	printf("%zu", i);
 	printf("that's a good process\n");
 	return (EXIT_SUCCESS);
 }
