@@ -15,6 +15,10 @@
 
 int	main(void)
 {
+	size_t i;
+
+	i = 0;
+	printf("%d", i);
 	printf("that's a good process\n");
 	return (EXIT_SUCCESS);
 }
