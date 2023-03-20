@@ -15,6 +15,6 @@
 
 int	main(void)
 {
-	printf("that's a process\n");
+	printf("that's a good process\n");
 	return (EXIT_SUCCESS);
 }
