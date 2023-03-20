@@ -5,12 +5,16 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: romannbroque <rbroque@student.42.fr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/03/17 14:51:31 by romannbroque      #+#    #+#             */
-/*   Updated: 2023/03/17 18:49:32 by romannbroque     ###   ########.fr       */
+/*   Created: 2023/03/20 11:37:41 by romannbroque      #+#    #+#             */
+/*   Updated: 2023/03/20 11:40:24 by romannbroque     ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <stdio.h>
+#include <stdlib.h>
+
 int	main(void)
 {
-	return (0);
+	printf("that's a process\n");
+	return (EXIT_SUCCESS);
 }
