@@ -13,6 +13,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+void	error(void)
+{
+	exit(EXIT_FAILURE);
+}
+
 int	main(void)
 {
 	size_t	i;
