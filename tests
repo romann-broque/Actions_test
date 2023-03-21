@@ -1,3 +1,5 @@
 cc -Wall -Werror -Wextra main.c
 ./a.out
+ret_value=$?
 rm ./a.out
+exit $ret_value
