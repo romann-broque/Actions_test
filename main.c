@@ -13,6 +13,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+void	error(void)
+{
+	exit(EXIT_FAILURE);
+}
+
 int	main(void)
 {
 	size_t	i;
@@ -20,5 +25,6 @@ int	main(void)
 	i = 0;
 	printf("%zu", i);
 	printf("that's a good process\n");
+	error();
 	return (EXIT_SUCCESS);
 }
