@@ -25,6 +25,5 @@ int	main(void)
 	i = 0;
 	printf("%zu", i);
 	printf("that's a good process\n");
-	error();
 	return (EXIT_SUCCESS);
 }
